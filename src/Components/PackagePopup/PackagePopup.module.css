@@ -22,6 +22,7 @@
 .header{
     background-color: beige;
     border-radius: 6px;
+    color: #472d30;
 
 }
 .h2{
@@ -66,7 +67,7 @@
   @media screen and (max-width: 580px) {
     .close{
         position: sticky;
-        top:5vh;
+        top:2vh;
         left:70vw;
         width: 5%;
         height: 5%;
@@ -81,3 +82,31 @@
         height: 5%;
     }
   } */
+  @media (max-width: 600px) {
+    .header{
+        font-size: 1.3rem;
+        color: #472d30;
+    }
+    .h2{
+        font-size: 1.1rem;
+        color: #723d46
+    }
+    .h3{
+        font-size: 0.9rem;
+        color: #0f4c5c;
+    }
+    .h4{
+        font-size: 0.7rem;
+        text-align: start;
+        color: #0f4c5c;
+    }
+    .h5{
+        font-size: 0.6rem;
+        text-align: start;
+    }
+    .p{
+        font-size: 0.7rem;
+        color: #606c38;
+        text-align: start;
+    }
+  }
