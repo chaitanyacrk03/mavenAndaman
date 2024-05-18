@@ -51,7 +51,7 @@ function goToPackages(){
   return (
 <div className={css.container}>
     <div className={css.bgImage}>
-        <img className={css.img} src={image[bgImageIdx].img} alt='image' />
+        <img className={css.img} src={image[bgImageIdx].img} alt='' />
     </div>
     <div className={css.details}>
         <button className={css.arrow} onClick={()=>toggleImg(-1)}>
