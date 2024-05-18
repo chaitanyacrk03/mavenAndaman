@@ -5,7 +5,6 @@ const Navigation = () => {
   return (
     <div className={css.container}>
         <div className={css.title}>
-            {/* <img src={Maven}/> 
             <img className={css.logo} src="Maven.jpg" alt="" />
            Maven&nbsp;Andaman 
         </div>
