@@ -24,43 +24,43 @@ const PackagePopup = forwardRef(({item},ref) => {
                 <h1 className={css.header}>
                     {item.totalData.duration}
                 </h1>
-                <h2>
+                <h2 className={css.h2}>
                     Number Of People:
                 </h2>
-                <h4>
+                <h4 className={css.h4}>
                     {item.noOfPeople}
                 </h4>
-                <h2>
+                <h2 className={css.h2}>
                     {item.totalData.hotelTitle}
                 </h2>
                 <ol>
                 {
                     item.totalData.hotels.map((data)=>
                         <li>
-                                                <h4>
+                                                <h4 className={css.h4}>
                         {data}
                     </h4>
                         </li>
                     )
                     }
                 </ol>
-                <h4>
+                <h4 className={css.h4}>
                     {item.totalData.totalHotelCost}
                 </h4>
                 {
                     item.totalData.days.map((itemData)=>{
                         return (
                             <div>
-                                <h2>
+                                <h2 className={css.h2}>
                                     {itemData.title}
                                 </h2>
-                                <p>
+                                <p className={css.p}>
                                     {itemData.data}
                                 </p>
                                 {
                                     itemData.additionalDetails.map((summary)=>{
                                         return (
-                                            <h5>
+                                            <h5 className={css.h5}>
                                                 {summary}
                                             </h5>
                                         )
@@ -73,19 +73,19 @@ const PackagePopup = forwardRef(({item},ref) => {
                 }
                             {
                 item.totalData.totalCharges.map((charges)=>
-                <h5>
+                <h5 className={css.h5}>
                     {charges}
                 </h5>
                 )
                                 }
-                <h2>
+                <h2 className={css.h2}>
                 {item.totalData.totalPrice}
                 </h2>
-                <h3>
+                <h3 className={css.h3}>
                     {item.summaryTitle}
                 </h3>
                 {item.summary.map((summ)=>
-                <h5>
+                <h5 className={css.h5}>
                     {summ}
                 </h5>
                 )}
