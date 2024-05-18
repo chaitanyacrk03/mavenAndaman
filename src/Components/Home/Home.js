@@ -12,6 +12,12 @@ const Home = () => {
     const navigate=useNavigate()
 const image=[
     {
+        img:'Ocean4.png'
+    },
+    {
+        img:'Ocean5.png'
+    },
+    {
         img:'ocean1.jpg'
     },
     {
