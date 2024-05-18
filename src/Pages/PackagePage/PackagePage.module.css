@@ -1,0 +1,117 @@
+.card{
+    width:40%;
+    height:40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 3px solid rgb(215, 215, 227);
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4); 
+    transition: all 80ms linear;
+}
+.card:nth-child(1){
+    background: no-repeat url("../../../public/Ocean4.png");
+    background-size: cover;
+}
+.card:nth-child(2){
+    background: no-repeat url("../../../public/Ocean5.png");
+    background-size: cover;
+    border: 2px solid black;
+}
+.card:nth-child(3){
+    background: no-repeat url("../../../public/ocean3.png");
+    background-size: cover;
+}
+.cardItem{
+    color:  #0c0000;
+    font-weight: 800;
+    padding: 3px;
+}
+.card:nth-child(2) > .cardTitle {
+    color: rgb(9, 77, 136);
+}
+.cardTitle{
+    padding: 2px 5px;
+    color: aliceblue;
+    background: rgba(255, 165, 0,0.8);
+    border-radius: 5px;
+}
+.itemBody{
+    background-color: rgba(252, 252, 252, 0.4);
+    border-radius: 10px;
+}
+
+.body{
+    height: 110vh;
+    font-family: Platypi , serif;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-between;
+}
+.card:hover{
+    width: 41%;
+    height:41vh;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4); 
+  }
+@media screen and (max-width: 480px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .body{
+        height: 100%;
+    }
+    .card{
+        width:80%;
+    }
+    .card:hover{
+        width: 81%;
+        height:41vh;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4); 
+      }
+  }
+  .title{
+    font-size: 250%;
+    color:rgb(36, 23, 93);
+  }
+
+.button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}

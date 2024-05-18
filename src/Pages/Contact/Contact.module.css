@@ -1,0 +1,78 @@
+.title{
+    color: rgb(36, 23, 93);
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+.title2{
+    color: rgb(36, 23, 93);
+    text-align: start;
+}
+.container{
+    display: block;
+    margin: auto;
+    border: 3px solid white;
+    background-color: transparent;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+label{
+    display: block;
+    margin: auto;
+    padding: 1vh;
+
+}
+input[type="text"],input[type="email"], input[type="number"] {
+    display: block;
+    margin: 2% auto;
+    width: 85%;
+    height: 4vh;
+    max-height: 30px;
+    border-radius: 5px;
+    border: solid 2px #120A19;
+    background-color: #DBD6DF;
+}
+input[type="submit"]{
+    display:block;
+    margin: 4% auto;
+    width: 30%;
+    height: 4vh;
+    background-color: #120A19;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+textarea{
+    display: block;
+    margin: 2% auto 0;
+    width: 85%;
+    height: 6vh;
+    max-height: 165px;
+    border-radius: 5px;
+    border: solid 2px #120A19;
+    background-color: #DBD6DF;
+    font-family: sans-serif;
+}
+
+input:hover {
+    transform: scale(1.05);
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.location{
+text-align: start;
+}
+h3{
+    color:#6c757d;
+}
+.number{
+    color:rgb(218, 99, 60);
+    text-decoration-line: underline;
+}
+.body{
+    padding-left: 10px;
+}
