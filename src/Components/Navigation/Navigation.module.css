@@ -13,12 +13,20 @@ ul {
     font-size: min(1.6em,10vw);
     color:#1e6091;
     width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    z-index: 4;
   }
   .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     background: transparent;
     display: flex;  
     flex-wrap: wrap;
@@ -55,4 +63,8 @@ ul {
   .textItem{
     color: #064c3f;
     font-size: 1em;
+  }
+  .logo{
+    background: none;
+    border-radius: 50%;
   }
