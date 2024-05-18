@@ -8,7 +8,7 @@ const Layout = () => {
   return (
     <div className={css.container}>
       <Navigation />
-      <ReactWhatsapp className={css.a} size={50} number="8900913929" message="Hey Maven Andaman! I need more info about Maven Andaman! https://mavenandaman.com/"><IoCallOutline color="white" size={35}/></ReactWhatsapp>
+      <ReactWhatsapp className={css.a} size={50} number="+91 8900913929" message="Hey Maven Andaman! I need more info about Maven Andaman! https://mavenandaman.com/"><IoCallOutline color="white" size={35}/></ReactWhatsapp>
       <Outlet />
     </div>
   )
