@@ -82,6 +82,12 @@
         height: 5%;
     }
   } */
+  .logo{
+    width: 10%;
+    height: 10%;
+    background: none;
+    border-radius: 50%;
+}
   @media (max-width: 600px) {
     .header{
         font-size: 1.3rem;
@@ -109,10 +115,10 @@
         color: #606c38;
         text-align: start;
     }
+    .logo{
+        width: 30%;
+        height: 30%;
+        background: none;
+        border-radius: 50%;
+    }
   }
-.logo{
-    width: 30%;
-    height: 30%;
-    background: none;
-    border-radius: 50%;
-}
