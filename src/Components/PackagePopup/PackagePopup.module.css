@@ -110,3 +110,9 @@
         text-align: start;
     }
   }
+.logo{
+    width: 30%;
+    height: 30%;
+    background: none;
+    border-radius: 50%;
+}
