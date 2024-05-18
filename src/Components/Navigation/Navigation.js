@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import css from './Navigation.module.css';
-import Maven from '../../assets/Maven.png'
 const Navigation = () => {
   return (
     <div className={css.container}>
