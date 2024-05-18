@@ -1,6 +1,10 @@
 import React from 'react'
 import { AiOutlineContacts } from "react-icons/ai";
 import css from './Contact.module.css'
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io";
 const Contact = () => {
   return (
     <div className={css.body}>
@@ -30,6 +34,23 @@ const Contact = () => {
       <br />
       <a className={css.number} href="tel:+91 94342 84740">+91 94342 84740</a>
       </h3>
+      <h1 className={css.title2}>
+          Follow Us!!
+        </h1>
+      <div className={css.social}>
+          <a className={css.item} href="https://www.youtube.com/channel/UC5T2scY-u7YwOmUJlF8_SZQ">
+          <IoLogoYoutube  size={30} color='red' />
+          </a>
+          <a className={css.item} href="https://www.google.com/maps/place/Maven+Andaman/@11.6691385,92.7444242,15z/data=!4m6!3m5!1s0x3088950ba5555555:0xca72c8ea757f8a6b!8m2!3d11.6691385!4d92.7444242!16s%2Fg%2F11gfkgd1bm?entry=ttu">
+          <FaLocationDot  size={30} color='green' />
+          </a>
+          <a className={css.item} href="https://m.facebook.com/100063748794061/photos/">
+          <FaSquareFacebook  size={30} color='blue' />
+          </a>
+          <a className={css.item} href="https://www.instagram.com/mavenandaman/">
+          <FaInstagram  size={30} color='purple' />
+          </a>
+        </div>
       <div className={css.mainContainer}>
         <h1 className={css.title}>
           GET A CALL FROM US
