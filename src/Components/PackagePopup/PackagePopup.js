@@ -13,12 +13,12 @@ const PackagePopup = forwardRef(({item},ref) => {
     const dialog=useRef()
   return (
     <dialog className={css.body} ref={dialog}>
-        <div>
-            
-        </div>
         <button onClick={()=>dialog.current.close()} className={css.close}>
              <IoClose size={40} color="black"/>
         </button>
+        <div>
+        <img className={css.logo} src="Maven.jpg" alt="" />
+        </div>
         {item ? <div>
             <div >
                 <h1 className={css.header}>
@@ -27,9 +27,9 @@ const PackagePopup = forwardRef(({item},ref) => {
                 <h2 className={css.h2}>
                     Number Of People:
                 </h2>
-                <h4 className={css.h4}>
+                <h3 className={css.h3}>
                     {item.noOfPeople}
-                </h4>
+                </h3>
                 <h2 className={css.h2}>
                     {item.totalData.hotelTitle}
                 </h2>
