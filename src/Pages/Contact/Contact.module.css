@@ -15,6 +15,14 @@
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
 }
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.item{
+    padding: 3px;
+}
 
 label{
     display: block;
