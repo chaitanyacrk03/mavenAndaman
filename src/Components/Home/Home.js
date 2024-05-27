@@ -83,6 +83,16 @@ function goToPackages(){
         <h2 className={css.blue}>
         Why Choose Us
         </h2>
+        <h3 className={css.blue}>
+        Truly a right question to ask. Why choose MavenAndaman as your travel agent for Andaman & Nicobar Islands?
+        </h3>
+        <p>
+        At MavenAndaman we understand the importance of your holiday with your loved ones as it's an event of joy & celebration to you and your family. You would like to know every detail of the trip and it's exact cost too. You will want to know if you are paying anything more for something you can get at a lesser price. 
+        </p>
+        <br />
+        <p>
+        With MavenAndaman you see every detail and it's price against it and there are <b className={css.blue}>no hidden or extra charges.</b>This is one of the reasons to choose MavenAndaman, other than our services.
+        </p>
         <h3>
         Explore new worlds with us
         </h3>
