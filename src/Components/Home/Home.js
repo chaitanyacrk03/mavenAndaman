@@ -26,6 +26,7 @@ const image=[
     {
         img:'ocean3.png'
     }
+    
     // {
     //     img:'../../assets/ocean-water.jpg'
     // },
@@ -74,11 +75,15 @@ function goToPackages(){
     </div>
     <div className={css.extraDetails}>
         <h1  >
-            Make your Tour plan
+            When you make your plan to visit Andaman Nicobar Islands.
             <BiTrip size={30}/>
         </h1>
         <p>
-        Discover Andaman, a tropical paradise in the Bay of Bengal! Customize your own adventure with pristine beaches, vibrant coral reefs, lush jungles, and rich culture. Let the exploration begin!
+        Union Territory of Bharat, Andaman & Nicobar Islands is a bucket list wish for all across the world. MavenAndaman, gets together with you from Port Blair, the capital of Andaman & Nicobar Islands to enable your plan to reality. We work with you on your plan, fine tune it and see one of the best memories created for you and your loved ones.
+        </p>
+        <br />
+        <p>
+        We are just a call away. Dial <b>8900913929</b> talk to Prashanth Ullal or call <b>9734481740</b> and talk to Anita Singh. We make your trip a reality.
         </p>
         <h2 className={css.blue}>
         Why Choose Us
@@ -101,13 +106,13 @@ function goToPackages(){
             <h2 className={css.yellow}>
             Trip Planning
             </h2>
-Creating customized itineraries based on client preferences, budget, and duration of stay
+            MavenAndaman, offers you all the latest information, that will help you plan well. We inform you about the weather, the sea conditions and the beautiful under water experience. We are based in Port Blair and we will take the responsibility of offering you all the right information. 
             </li>
             <li>
                 <h2 className={css.blue}>
                 Accommodation Booking <FaHome color='black' size={30}/>
                 </h2>
-Reserving suitable accommodations that meet the client’s requirements and preferences.
+                MavenAndaman, closely works with all the hotels in the Andaman Nicobar Islands and we inform the experience we enjoy with these hotels by staying in the hotels we promote.
             </li>
             <li>
                 <h2 className={css.yellow}>
