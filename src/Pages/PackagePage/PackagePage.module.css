@@ -12,16 +12,16 @@
     transition: all 80ms linear;
 }
 .card:nth-child(1){
-    background: no-repeat url("../../../public/Ocean4.png");
+    background: no-repeat url("../../../public/andaman1.jpg");
     background-size: cover;
 }
 .card:nth-child(2){
-    background: no-repeat url("../../../public/Ocean5.png");
+    background: no-repeat url("../../../public/andaman4.jpg");
     background-size: cover;
     border: 2px solid black;
 }
 .card:nth-child(3){
-    background: no-repeat url("../../../public/ocean3.png");
+    background: no-repeat url("../../../public/andaman3.jpg");
     background-size: cover;
 }
 .cardItem{
