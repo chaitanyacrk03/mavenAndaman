@@ -12,19 +12,19 @@ const Home = () => {
     const navigate=useNavigate()
 const image=[
     {
-        img:'Ocean4.png'
+        img:'andaman1.jpg'
     },
     {
-        img:'Ocean5.png'
+        img:'andaman2.jpg'
     },
     {
-        img:'ocean1.jpg'
+        img:'andaman3.jpg'
     },
     {
-        img:'ocean2.jpg'
+        img:'andaman4.jpg'
     },
     {
-        img:'ocean3.png'
+        img:'andaman5.jpg'
     }
     
     // {
