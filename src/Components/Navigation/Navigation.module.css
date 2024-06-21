@@ -73,3 +73,27 @@ ul {
     border-radius: 50%;
 
   }
+  @media screen and (max-width: 480px) {
+    .container{
+      background: no-repeat url("../../../public/Jail.jpg");
+      background-size: cover;
+    }
+    .container a{
+      padding:3px;
+      color:white;
+      background-color:rgba(0,0,0,0.6);
+      border-radius:5px;
+    }
+    .container .textItem{
+      color:#b5e48c;
+      background-color:rgba(0,0,0,0.6);
+      border-radius:5px;
+    }
+    .container .title{
+      color:white;
+      /* text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000; */
+    }
+  }
