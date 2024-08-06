@@ -24,6 +24,19 @@
     background: no-repeat url("../../../public/andaman3.jpg");
     background-size: cover;
 }
+.card:nth-child(4){
+  background: no-repeat url("../../../public/andaman1.jpg");
+  background-size: cover;
+}
+.card:nth-child(5){
+  background: no-repeat url("../../../public/andaman4.jpg");
+  background-size: cover;
+  border: 2px solid black;
+}
+.card:nth-child(6){
+  background: no-repeat url("../../../public/andaman3.jpg");
+  background-size: cover;
+}
 .cardItem{
     color:  #0c0000;
     font-weight: 800;
